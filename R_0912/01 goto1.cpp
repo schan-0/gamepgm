@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
-// Ä¿¼­ À§Ä¡ Á¦¾î ÇÁ·Î±×·¥ 
-void gotoxy(int x, int y);	// ±¸ÇöÀº ³ªÁß¿¡ ÇÏ´õ¶óµµ ¼±¾ğ ¸ÕÀú ÇØ³ö¾ß ÀÎ½ÄÀ» ÇÑ´Ù. 
+// ì»¤ì„œ ìœ„ì¹˜ ì œì–´ í”„ë¡œê·¸ë¨ 
+void gotoxy(int x, int y);	// êµ¬í˜„ì€ ë‚˜ì¤‘ì— í•˜ë”ë¼ë„ ì„ ì–¸ ë¨¼ì € í•´ë†”ì•¼ ì¸ì‹ì„ í•œë‹¤. 
 
 int main(void) {
 	gotoxy(2,4);
@@ -11,7 +11,7 @@ int main(void) {
 	return 0;
 }
 
-void gotoxy(int x, int y){		// x°¡ ¿­, y°¡ ÇàÀÌ´Ù. 
+void gotoxy(int x, int y){		// xê°€ ì—´, yê°€ í–‰ì´ë‹¤. 
 	COORD Pos = {x - 1, y - 1};
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
 }
