@@ -4,8 +4,8 @@
 void gotoxy(int x, int y);
 int main(void){
 	for(int i=1;i<=9;i++){
-		gotoxy(35, 5+i);				// Ä¿¼­ ÀÌµ¿ 
-		printf("%d*%d=%2d",3,i,3*i);	// 3´Ü Ãâ·Â 
+		gotoxy(35, 5+i);				// Ã„Â¿Â¼Â­ Ã€ÃŒÂµÂ¿ 
+		printf("%d*%d=%2d",3,i,3*i);	// 3Â´Ãœ ÃƒÃ¢Â·Ã‚ 
 	}
 	printf("\n");
 	return 0;
