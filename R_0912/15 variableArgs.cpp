@@ -4,8 +4,8 @@
 double sum(int count, ...);
 
 int main(void) {
-	printf("ÇÕ°è = %lf\n", sum(2, 10.5, 20.23));
-	printf("ÇÕ°è = %lf\n", sum(5, 10.3, 245.67, 0.51, 198345.764));
+	printf("í•©ê³„ = %lf\n", sum(2, 10.5, 20.23));
+	printf("í•©ê³„ = %lf\n", sum(5, 10.3, 245.67, 0.51, 198345.764));
 	return 0;
 }
 
@@ -15,7 +15,7 @@ double sum(int count, ...) {
 	va_list ap;
 	va_start(ap, count);
 	while(i < count) {
-		number=va_arg(ap, double); //ÀÎ¼öÀÇ µ¥ÀÌÅÍ ÇüÀº double
+		number=va_arg(ap, double); //ì¸ìˆ˜ì˜ ë°ì´í„° í˜•ì€ double
 		total+=number;
 		i++;
 	}
