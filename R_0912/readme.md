@@ -1,12 +1,18 @@
 # 0912 Report
 09.12일자 강의내용을 바탕으로 작성된 레포트입니다.
-본 문서는 각 파일(01~15)의 실행결과를 순서대로 담고 있습니다.
+본 문서는 각 파일(01~15)의 실행결과를 순서대로 담고 있습니다.<br><br><br>
 
 ## 커서의 위치 제어 1 `Slide04`
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/goto1.png" width="500px" />
-<br><br><br><br>
+
+
+
+
 ## 커서의 위치 제어 2 `Slide04`
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/goto2.png" width="500px" />
+
+
+
 
 ## 화면 지우기 1 `Slide05`
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/cls.png" width="500px" />
