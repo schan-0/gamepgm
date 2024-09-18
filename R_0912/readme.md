@@ -1,4 +1,5 @@
 # 0912 Report
+09.12일자 강의내용을 바탕으로 작성된 레포트입니다.
 
 ## 커서의 위치 제어_Slide03
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/goto1.png" width="500px" />
