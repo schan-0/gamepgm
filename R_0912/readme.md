@@ -4,7 +4,7 @@
 
 ## 커서의 위치 제어 1 `Slide04`
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/goto1.png" width="500px" />
-
+<br><br><br><br>
 ## 커서의 위치 제어 2 `Slide04`
 <img src="https://github.com/schan-0/gamepgm/blob/main/R_0912/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/goto2.png" width="500px" />
 
