@@ -15,7 +15,7 @@
 <img src="https://github.com/schan-0/gamepgm/blob/main/0919/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/04%20Tune_Beep.png" width="500px" /><br><br><br><br>
 
 ## 숫자 키로 음 출력 `Slide21~23`
-<img src="https://github.com/schan-0/gamepgm/blob/main/0919/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/05%20Tune_Piano.png" width="600px" /><br><br><br><br>
+<img src="https://github.com/schan-0/gamepgm/blob/main/0919/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/05%20Tune_Piano.png" width="500px" /><br><br><br><br>
 
 ## 연결 리스트 `Slide28~32`
 <img src="https://github.com/schan-0/gamepgm/blob/main/0919/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/06%20DS_SLL.png" width="500px" /><br><br><br><br>
