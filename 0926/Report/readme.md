@@ -69,7 +69,7 @@ switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`
 `main()`에서는 2차원 배열 `shape1`의 초기값만 설정하고 모든 프로그램 흐름은 `move_control()`및 `move_shape()`에서 제어된다.
 
 `move_contorl()`에서는 사용자가 입력한 `key`값에 따른 다음 행동을 switch문으로 제어한다.<br>
-|: *key* :|action|
+|:key:|action|
 |---|---|
 |↑|iny = -1|
 |←|inx = -1|
