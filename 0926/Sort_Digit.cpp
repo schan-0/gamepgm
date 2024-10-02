@@ -9,10 +9,10 @@ int main(void) {
     long long number;
     scanf("%lld", &number);
     getchar();
-    printf("ÀÔ·Â ¼ýÀÚ : %lld\n\n", number);
-    printf("³ôÀº ´ÜÀ§ºÎÅÍ Ãâ·Â\n");
+    printf("ìž…ë ¥ ìˆ«ìž : %lld\n\n", number);
+    printf("ë†’ì€ ë‹¨ìœ„ë¶€í„° ì¶œë ¥\n");
     serial_number(number);
-    printf("\n³·Àº ´ÜÀ§ºÎÅÍ Ãâ·Â\n");
+    printf("\në‚®ì€ ë‹¨ìœ„ë¶€í„° ì¶œë ¥\n");
     reverse_number(number);
 	printf("\npress any key to continue.......");
 	getch();
@@ -22,7 +22,7 @@ int main(void) {
 void serial_number(long long number) {
    long long num;
    int i, length=0;
-   length=(int)(log10(number)+1);  //ÃÖ´ë ÀÚ¸®¼ö °è»ê
+   length=(int)(log10(number)+1);  //ìµœëŒ€ ìžë¦¬ìˆ˜ ê³„ì‚°
    for(i=length;i>=1;i--)
    {
      num = number/(long long)pow(10, i-1);
