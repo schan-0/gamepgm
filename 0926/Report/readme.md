@@ -39,7 +39,9 @@ Scanf로 입력받은 수를 문자열로 취급하여 char[]에 하나씩 넣�
 <img src="https://github.com/schan-0/gamepgm/blob/main/0926/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/06%20Slide_2.png" width="500px" /><br>
 수평 슬라이드 바의 길이 `h_slide_length`와 수직 슬라이드 바의 길이 `v_slide_length`를 각각 설정하고 시작한다.
 
-사용자의 입력이 끝나면 `system("cls")`로 화면을 초기화하고 `draw_vertical_slide()`와 `draw_horizontal_slide()`가 순서대로 실행된다. `P`
+사용자의 입력이 끝나면 `system("cls")`로 화면을 초기화하고,
+
+`draw_vertical_slide()`와 `draw_horizontal_slide()`가 순서대로 실행된다.
 
 두 함수의 로직은 거의 같다. 인자로 받은 `length`를 `draw_rectangle()`에 다시 전달하여 그 크기에 해당하는 직사각형 셀을 화면에 표시하고,
 
@@ -55,7 +57,7 @@ Scanf로 입력받은 수를 문자열로 취급하여 char[]에 하나씩 넣�
 
 switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`를 기반으로 하는 ■ 의 위치가 슬라이드 바를 벗어날 수 없게 되어있다.
 
-여기까지 진행되면 다시 `main()`의 do-while문으로 돌아가 while에서 `key`값이 ESC인지 검사하고, 아니라면 `P`로 루프된다.
+여기까지 진행되면 다시 `main()`의 do-while문으로 돌아가 while에서 `key`값이 ESC인지 검사하고, 아니라면 본문의 세 번째 줄로 루프된다.
 
 매 입력마다 `system("cls")`로 화면을 초기화해야 할 것 같지만, `draw_rectangle()`가 실행되는 과정에서
 
@@ -64,4 +66,13 @@ switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`
 
 ## 07 도형 이동 및 변환 `Slide29~37`
 <img src="https://github.com/schan-0/gamepgm/blob/main/0926/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/07%20Arrow.png" width="500px" /><br>
+`main()`에서는 2차원 배열 `shape1`의 초기값만 설정하고 모든 프로그램 흐름은 `move_control()`및 `move_shape()`에서 제어된다.
 
+`move_contorl()`에서는 사용자가 입력한 `key`값에 따른 다음 행동을 switch문으로 제어한다.
+|key|action|
+|---|---|
+|↑|iny = -1|
+|←|inx = -1|
+|↓|iny = 1|
+|→|inx = 1|
+|SpaceBar|rotation_right()|
