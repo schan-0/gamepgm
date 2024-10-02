@@ -68,14 +68,15 @@ switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`
 <img src="https://github.com/schan-0/gamepgm/blob/main/0926/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/07%20Arrow.png" width="500px" /><br>
 `main()`에서는 2차원 배열 `shape1`의 초기값만 설정하고 모든 프로그램 흐름은 `move_control()`및 `move_shape()`에서 제어된다.
 
-`move_contorl()`에서는 사용자가 입력한 `key`값에 따른 다음 행동을 switch문으로 제어한다.
-|:key:|action|
+`move_contorl()`에서는 사용자가 입력한 `key`값에 따른 다음 행동을 switch문으로 제어한다.<br>
+|:/key:|action|
 |---|---|
 |↑|iny = -1|
 |←|inx = -1|
 |↓|iny = 1|
 |→|inx = 1|
 |SpaceBar|rotation_right()|
+<br>
 
 `rotation_right()`는 `shape1`을 인자로 받아 행렬을 시계방향으로 90도 회전시키는 회전변환을 수행한다.
 
