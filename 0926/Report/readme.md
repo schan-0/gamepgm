@@ -39,8 +39,7 @@ Scanf로 입력받은 수를 문자열로 취급하여 char[]에 하나씩 넣�
 <img src="https://github.com/schan-0/gamepgm/blob/main/0926/Report/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4/06%20Slide_2.png" width="500px" /><br>
 수평 슬라이드 바의 길이 `h_slide_length`와 수직 슬라이드 바의 길이 `v_slide_length`를 각각 설정하고 시작한다.
 
-사용자의 입력이 끝나면 `system("cls")`로 화면을 초기화하고 `draw_vertical_slide()`와 `draw_horizontal_slide()`가 순서대로 실행된다. <span style="background-color: #f6f8fa">회색형광펜</span>
-
+사용자의 입력이 끝나면 `system("cls")`로 화면을 초기화하고 `draw_vertical_slide()`와 `draw_horizontal_slide()`가 순서대로 실행된다. *01*
 두 함수의 로직은 거의 같다. 인자로 받은 `length`를 `draw_rectangle()`에 다시 전달하여 그 크기에 해당하는 직사각형 셀을 화면에 표시하고,
 
 커서를 직사각형 내부로 이동시켜 문자열 "■"를 출력한 후 다시 커서를 주변으로 이동시켜 슬라이드의 현재 상하/좌우 값을 표시한다.
@@ -55,7 +54,7 @@ Scanf로 입력받은 수를 문자열로 취급하여 char[]에 하나씩 넣�
 
 switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`를 기반으로 하는 ■ 의 위치가 슬라이드 바를 벗어날 수 없게 되어있다.
 
-여기까지 진행되면 다시 `main()`의 do-while문으로 돌아가 while에서 `key`값이 ESC인지 검사하고, 아니라면 로 루프된다.
+여기까지 진행되면 다시 `main()`의 do-while문으로 돌아가 while에서 `key`값이 ESC인지 검사하고, 아니라면 *01*로 루프된다.
 
 매 입력마다 `system("cls")`로 화면을 초기화해야 할 것 같지만, `draw_rectangle()`가 실행되는 과정에서
 
