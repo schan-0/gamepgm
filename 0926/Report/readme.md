@@ -91,11 +91,11 @@ switch문의 각 case에는 xy값을 제한하는 조건문이 있어 `x`와 `y`
 
 |key|action|
 |:---:|---|
-|↑|iny = -1|
-|←|inx = -1|
-|↓|iny = 1|
-|→|inx = 1|
-|SpaceBar|rotation_right()|
+|↑|`iny = -1`|
+|←|`inx = -1`|
+|↓|`iny = 1`|
+|→|`inx = 1`|
+|SpaceBar|`rotation_right()`|
 
 <br><br>
 
